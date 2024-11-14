@@ -1,0 +1,17 @@
+.panelFavoritosContenedorPadre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+    position: fixed;
+    color: white;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px 0px 0px 10px;
+    width: 30%;
+
+}

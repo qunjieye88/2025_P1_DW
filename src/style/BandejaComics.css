@@ -1,0 +1,37 @@
+.bandejaComicsContenedorPadre {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(177, 177, 177);
+    padding-top: 5%;
+}
+
+.BandejaComicsTituloContenedor {
+
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 5%;
+}
+
+.BandejaComicsTitulo {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    background-color: rgb(141, 141, 141);
+    clip-path: polygon(5% 0%, 100% 10%, 95% 100%, 0% 90%)
+}
+
+
+
