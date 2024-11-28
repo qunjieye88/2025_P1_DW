@@ -24,7 +24,7 @@ function App() {
   const publicKey = "4d7b89fdaf5db7181544503906bbf544";
   const privateKey = "eb2d491e06b3f0ee0a6497fdeeb19ec48d62bd15";
   const hash = "2f0896f43c05123e99db1630fc41adf1";
-  const url = `http://gateway.marvel.com/v1/public/comics?ts=${ts}&apikey=${publicKey}&hash=${hash}`;
+  const url = `https://gateway.marvel.com/v1/public/comics?ts=${ts}&apikey=${publicKey}&hash=${hash}`;
   
   const [dato, setData] = useState(null);
   const [datoPersonajes, setDatoPersonajes] = useState(null);
